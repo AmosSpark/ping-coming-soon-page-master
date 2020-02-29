@@ -27,32 +27,47 @@
     </style>
   </head>
   <body>
-    <header>
-      <h2>ping<span>.</span></h2>
-      <div>
-        <span>We are launching <span>soon!</span> </span>
-        <span>Subscribe and get notified</span>
-        <form><input type="text" /> <button>Notify Me</button></form>
-      </div>
-    </header>
+    <div class="container">
+      <header>
+        <div class="header">
+          <h2 class="header__head header--txt">
+            ping<span class="header--punc">.</span>
+          </h2>
+          <!-- info -->
+          <div class="header__info info">
+            <span class="header__info--big info--grey"
+              >We are launching <span class="info--dark-blue">soon!</span>
+            </span>
+            <span class="header__info--small">Subscribe and get notified</span>
+            <!-- form -->
+            <form class="header__form">
+              <input type="text" placeholder="Your email address..." />
+              <button class="btn btn--round">Notify Me</button>
+            </form>
+          </div>
+        </div>
+      </header>
 
-    <main>
-      <section>
-        <div></div>
-      </section>
-    </main>
+      <main>
+        <section>
+          <!-- dashboard -->
+          <div class="dashboard"></div>
+        </section>
+      </main>
 
-    <footer>
-      <div></div>
+      <footer>
+        <div class="icons"></div>
 
-      &copy; Copyright Ping. All rights reserved.
+        &copy; Copyright Ping. All rights reserved.
 
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </p>
-    </footer>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://devcareer.io/amosspark">Your Name Here</a>.
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
