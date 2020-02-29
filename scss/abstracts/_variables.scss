@@ -1,3 +1,13 @@
+// COLORS
+
+$primary-color-blue: hsl(223, 87%, 63%);
+$secondary-color-pale-blue: hsl(223, 100%, 88%);
+$secondary-color-light-red: hsl(354, 100%, 66%);
+$neutral-color-gray: hsl(0, 0%, 59%);
+$neutral-color-very-dark-blue: hsl(209, 33%, 12%);
+
+// FONTS
+/*size*/
 $root-font-size: 62.5%;
 $tablet-size: 900px;
 $tablet-font-size: 56.25%;
@@ -6,3 +16,7 @@ $tablet-font-size: 56.25%;
 $mobile-font-size: 50%;
 $desktop-size: 1200px;
 $desktop-font-size: 75%;
+/*weights*/
+$font-weight-s: 300;
+$font-weight-m: 600;
+$font-weight-b: 700;
