@@ -30,26 +30,40 @@ html {
 body {
   font-family: "Libre Franklin"; }
 
+.header {
+  margin-top: 8rem; }
+  .header .header__head {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 700; }
+    .header .header__head .header--txt {
+      color: #151f29; }
+    .header .header__head .header--punc {
+      color: #4f7df3; }
+    .header .header__head .info--grey {
+      color: #969696; }
+    .header .header__head .info--dark-blue {
+      color: red; }
+
 @media only screen and (min-width: 1200px) {
   html {
     font-size: 75%; } }
 
 .container {
-  display: flex;
-  flex-direction: column; }
+  display: flex; }
   .container .header {
+    width: 100vw;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    text-align: center; }
     .container .header .header__head {
+      margin-bottom: 3rem; }
+    .container .header .header__info--small {
+      margin-bottom: 3rem; }
+    .container .header .header__form .header__form-input,
+    .container .header .header__form .btn {
+      display: inline-block;
+      justify-self: center; }
+    .container .header .footer {
       display: flex;
       justify-content: center; }
-    .container .header .header__info {
-      display: flex;
-      justify-content: center; }
-    .container .header .header__form {
-      display: flex;
-      justify-content: center;
-      flex-direction: column; }
-  .container .footer {
-    display: flex;
-    justify-content: center; }

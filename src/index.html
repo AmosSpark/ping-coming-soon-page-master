@@ -9,7 +9,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="../images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="../css/main.css" />
 
@@ -34,17 +34,21 @@
             ping<span class="header--punc">.</span>
           </h2>
           <!-- info -->
-          <div class="header__info info">
-            <span class="header__info--big info--grey"
-              >We are launching <span class="info--dark-blue">soon!</span>
-            </span>
-            <span class="header__info--small">Subscribe and get notified</span>
+          <div class="header__info">
+            <div class="header__info--big">
+              <div class="info--grey">
+                We are launching <span class="info--dark-blue">soon!</span>
+              </div>
+              </div>
+              <div class="header__info--small">Subscribe and get notified</div>
+            </div>
+            <!-- form -->
+            <form class="header__form">
+              <input type="text" class="header__form-input" placeholder="Your email address..." /><br>
+              <button class="btn btn--round">Notify Me</button>
+            </form>
           </div>
-          <!-- form -->
-          <form class="header__form">
-            <input type="text" placeholder="Your email address..." />
-            <button class="btn btn--round">Notify Me</button>
-          </form>
+          
         </div>
       </header>
 
