@@ -52,6 +52,8 @@ body {
   .header .header__info--small {
     font-size: 1.5rem;
     margin: 2rem 0 3rem 0; }
+  .header .header__form .btn {
+    font-size: 1.6rem; }
 
 @media only screen and (min-width: 1200px) {
   html {
@@ -77,14 +79,19 @@ body {
 .header__form .btn {
   background: #4f7df3;
   color: #fff;
-  border: none; }
+  border: none;
+  outline: none;
+  box-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .header__form .btn--round {
   border-radius: 3rem; }
 
 .header__form .header__form-input {
   padding: 2rem 0 2rem 3rem;
-  border: 0.1rem solid #bdbdbd; }
+  border: 0.1rem solid #bdbdbd;
+  outline: none; }
+  .header__form .header__form-input::placeholder {
+    color: #e3e3e3; }
 
 .header__form .header__form-input--round {
   border-radius: 3rem; }

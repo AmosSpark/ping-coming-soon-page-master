@@ -60,6 +60,12 @@ body {
     font-size: 1.5rem;
     margin: 2rem 0 3rem 0;
   }
+
+  .header__form {
+    .btn {
+      font-size: 1.6rem;
+    }
+  }
 }
 
 @media only screen and (min-width: $desktop-size) {

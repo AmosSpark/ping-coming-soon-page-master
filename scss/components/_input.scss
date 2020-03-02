@@ -2,6 +2,11 @@
   .header__form-input {
     padding: 2rem 0 2rem 3rem;
     border: 0.1rem solid lighten($color: $neutral-color-gray, $amount: 15);
+    outline: none;
+
+    &::placeholder {
+      color: lighten($color: $neutral-color-gray, $amount: 30);
+    }
   }
 
   .header__form-input--round {
