@@ -38,13 +38,25 @@ body {
     .header--punc {
       color: $primary-color-blue;
     }
+  }
 
-    .info--grey {
-      color: $neutral-color-gray;
+  .header__info {
+    font-weight: 300;
+    .header__info--big {
+      font-size: 3rem;
+
+      .info--grey {
+        color: $neutral-color-gray;
+
+        .info--dark-blue {
+          color: $neutral-color-very-dark-blue;
+          font-weight: 700;
+        }
+      }
     }
 
-    .info--dark-blue {
-      color: red;
+    .header__info--small {
+      font-size: 1.5rem;
     }
   }
 }

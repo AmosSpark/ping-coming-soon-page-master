@@ -1,0 +1,10 @@
+.header__form {
+  .header__form-input {
+    padding: 2rem 0 2rem 3rem;
+    border: 0.1rem solid lighten($color: $neutral-color-gray, $amount: 15);
+  }
+
+  .header__form-input--round {
+    border-radius: 3rem;
+  }
+}
