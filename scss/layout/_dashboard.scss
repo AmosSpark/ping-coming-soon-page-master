@@ -1,3 +1,12 @@
 .dashboard {
-  background: url("../../images/illustration-dashboard.png");
+  align-items: center;
+  margin: 8rem 0 10rem 0;
+  .board {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80vw;
+    height: 25vh;
+    background-image: url("../../images/illustration-dashboard.png");
+    justify-self: center;
+  }
 }

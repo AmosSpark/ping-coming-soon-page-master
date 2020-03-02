@@ -1,0 +1,11 @@
+.header {
+  .header__logo {
+    width: 100vw;
+    height: 2vh;
+    margin-bottom: 5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../images/logo.svg");
+    background-size: contain;
+  }
+}
