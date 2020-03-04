@@ -76,6 +76,13 @@ body {
 .header__form .header__form-input {
   margin-bottom: 1rem; }
 
+@media only screen and (min-width: 768px) {
+  .header__form {
+    display: flex;
+    width: 70vw; }
+  .header__form-input {
+    margin-right: 1rem; } }
+
 .header__form .btn {
   background: #4f7df3;
   color: #fff;
