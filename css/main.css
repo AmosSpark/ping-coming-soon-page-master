@@ -68,9 +68,7 @@ body {
   background-image: url("../../images/logo.svg");
   background-size: contain; }
 
-.header__form .header__form-input,
 .header__form .btn {
-  width: 75vw;
   height: 5vh; }
 
 .header__form .header__form-input {
@@ -78,10 +76,12 @@ body {
 
 @media only screen and (min-width: 768px) {
   .header__form {
-    display: flex;
-    width: 70vw; }
+    display: flex; }
   .header__form-input {
-    margin-right: 1rem; } }
+    margin-right: 1rem;
+    width: 60vw; }
+  .btn {
+    width: 15vw; } }
 
 .header__form .btn {
   background: #4f7df3;
