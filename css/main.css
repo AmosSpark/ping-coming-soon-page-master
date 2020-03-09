@@ -69,14 +69,15 @@ body {
   background-size: contain; }
 
 .header__form .btn {
-  height: 5vh; }
+  height: 4.5vh; }
 
 .header__form .header__form-input {
   margin-bottom: 1rem; }
 
 @media only screen and (min-width: 768px) {
   .header__form {
-    display: flex; }
+    display: flex;
+    height: 5vh; }
   .header__form-input {
     margin-right: 1rem;
     width: 60vw; }

@@ -1,7 +1,7 @@
 .header__form {
   .btn {
     // width: 75vw;
-    height: 5vh;
+    height: 4.5vh;
   }
 
   .header__form-input {
@@ -12,6 +12,7 @@
 @media only screen and (min-width: 768px) {
   .header__form {
     display: flex;
+    height: 5vh;
   }
   .header__form-input {
     margin-right: 1rem;
