@@ -1,24 +1,33 @@
 .header__form {
+  display: flex;
+  flex-direction: column;
   .btn {
-    // width: 75vw;
-    height: 4.5vh;
+    @include formStyle;
   }
 
   .header__form-input {
     margin-bottom: 1rem;
+    @include formStyle;
   }
 }
 
 @media only screen and (min-width: 768px) {
+  html {
+    font-size: $desktop-font-size;
+  }
+
   .header__form {
     display: flex;
-    height: 5vh;
-  }
-  .header__form-input {
-    margin-right: 1rem;
-    width: 60vw;
-  }
-  .btn {
-    width: 15vw;
+    flex-direction: row;
+    width: 50vw;
+    // height: 5vh;
+
+    .header__form-input {
+      margin-right: 1rem;
+      width: 33vw;
+    }
+    .btn {
+      width: 16vw;
+    }
   }
 }

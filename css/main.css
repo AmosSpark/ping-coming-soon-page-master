@@ -68,21 +68,29 @@ body {
   background-image: url("../../images/logo.svg");
   background-size: contain; }
 
-.header__form .btn {
-  height: 4.5vh; }
-
-.header__form .header__form-input {
-  margin-bottom: 1rem; }
+.header__form {
+  display: flex;
+  flex-direction: column; }
+  .header__form .btn {
+    width: 75vw;
+    height: 5vh; }
+  .header__form .header__form-input {
+    margin-bottom: 1rem;
+    width: 75vw;
+    height: 5vh; }
 
 @media only screen and (min-width: 768px) {
+  html {
+    font-size: 75%; }
   .header__form {
     display: flex;
-    height: 5vh; }
-  .header__form-input {
-    margin-right: 1rem;
-    width: 60vw; }
-  .btn {
-    width: 15vw; } }
+    flex-direction: row;
+    width: 50vw; }
+    .header__form .header__form-input {
+      margin-right: 1rem;
+      width: 33vw; }
+    .header__form .btn {
+      width: 16vw; } }
 
 .header__form .btn {
   background: #4f7df3;
