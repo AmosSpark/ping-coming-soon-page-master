@@ -57,7 +57,14 @@ body {
 
 @media only screen and (min-width: 1200px) {
   html {
-    font-size: 75%; } }
+    font-size: 75%; }
+  .header {
+    margin-top: 4rem; }
+    .header .header__info .header__info--big {
+      font-size: 4.5rem; }
+    .header .header__info--small {
+      font-size: 1.8rem;
+      margin: 2rem 0 3rem 0; } }
 
 .header .header__logo {
   width: 100vw;
@@ -68,20 +75,35 @@ body {
   background-image: url("../../images/logo.svg");
   background-size: contain; }
 
-.header__form .header__form-input,
-.header__form .btn {
-  width: 75vw;
-  height: 5vh; }
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 75%; }
+  .header .header__logo {
+    margin-bottom: 2rem; } }
 
-.header__form .header__form-input {
-  margin-bottom: 1rem; }
+.header__form {
+  display: flex;
+  flex-direction: column; }
+  .header__form .btn {
+    width: 75vw;
+    height: 5vh; }
+  .header__form .header__form-input {
+    width: 75vw;
+    height: 5vh; }
 
 @media only screen and (min-width: 768px) {
+  html {
+    font-size: 75%; }
   .header__form {
     display: flex;
-    width: 70vw; }
-  .header__form-input {
-    margin-right: 1rem; } }
+    flex-direction: row;
+    width: 40vw; }
+    .header__form .header__form-input {
+      margin-right: 1rem;
+      width: 33vw; }
+    .header__form .btn {
+      width: 16vw;
+      height: 4.2rem; } }
 
 .header__form .btn {
   background: #4f7df3;
@@ -109,7 +131,6 @@ body {
   flex-direction: column;
   align-items: center; }
   .container .header {
-    margin-top: 10rem;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -123,3 +144,12 @@ body {
   .dashboard .board img {
     max-width: 75vw;
     height: auto; }
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 75%; }
+  .dashboard {
+    margin: 6rem 0 10rem 0; }
+    .dashboard .board img {
+      max-width: 40vw;
+      height: auto; } }

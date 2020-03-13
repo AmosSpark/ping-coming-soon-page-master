@@ -72,4 +72,19 @@ body {
   html {
     font-size: $desktop-font-size;
   }
+
+  .header {
+    margin-top: 4rem;
+
+    .header__info {
+      .header__info--big {
+        font-size: 4.5rem;
+      }
+    }
+
+    .header__info--small {
+      font-size: 1.8rem;
+      margin: 2rem 0 3rem 0;
+    }
+  }
 }

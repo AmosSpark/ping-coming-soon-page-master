@@ -7,3 +7,19 @@
     }
   }
 }
+
+@media only screen and (min-width: $desktop-size) {
+  html {
+    font-size: $desktop-font-size;
+  }
+
+  .dashboard {
+    margin: 6rem 0 10rem 0;
+    .board {
+      img {
+        max-width: 40vw;
+        height: auto;
+      }
+    }
+  }
+}
