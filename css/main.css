@@ -88,7 +88,7 @@ body {
   .header__form {
     display: flex;
     flex-direction: row;
-    width: 50vw; }
+    width: 40vw; }
     .header__form .header__form-input {
       margin-right: 1rem;
       width: 33vw; }
