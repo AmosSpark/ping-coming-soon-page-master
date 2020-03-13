@@ -58,10 +58,13 @@ body {
 @media only screen and (min-width: 1200px) {
   html {
     font-size: 75%; }
-  .header .header__info .header__info--big {
-    font-size: 4.5rem; }
-  .header .header__info--small {
-    font-size: 1.8rem; } }
+  .header {
+    margin-top: 4rem; }
+    .header .header__info .header__info--big {
+      font-size: 4.5rem; }
+    .header .header__info--small {
+      font-size: 1.8rem;
+      margin: 2rem 0 3rem 0; } }
 
 .header .header__logo {
   width: 100vw;
@@ -71,6 +74,12 @@ body {
   background-position: center;
   background-image: url("../../images/logo.svg");
   background-size: contain; }
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 75%; }
+  .header .header__logo {
+    margin-bottom: 2rem; } }
 
 .header__form {
   display: flex;
@@ -122,7 +131,6 @@ body {
   flex-direction: column;
   align-items: center; }
   .container .header {
-    margin-top: 10rem;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -140,6 +148,8 @@ body {
 @media only screen and (min-width: 1200px) {
   html {
     font-size: 75%; }
-  .dashboard .board img {
-    max-width: 40vw;
-    height: auto; } }
+  .dashboard {
+    margin: 6rem 0 10rem 0; }
+    .dashboard .board img {
+      max-width: 40vw;
+      height: auto; } }
