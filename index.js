@@ -4,6 +4,11 @@ const valForm = document.querySelector(".header__form"),
   valInput = document.querySelector(".header__form-input"),
   valBtn = document.querySelector(".btn");
 
+// Create Element
+
+const d = document.createElement("div"); // create div element
+d.className = "validation";
+
 // Add Event Listerners
 
 const loadEvents = () => {
@@ -17,14 +22,26 @@ const loadEvents = () => {
 // form
 const formVal = e => {
   inputVal();
+  btnVal();
   e.preventDefault();
 };
 
-// input form
-const inputVal = () => {};
+const inputVal = () => {
+  const re = /^ab$/;
+  if (!re.test) {
+    d.innerText = "Please provide a valid email address";
+  }
+};
 
 // btn form
 const btnVal = e => {
+  if (valInput.value === "") {
+    console.log("error");
+    valForm.insertBefore(d, valBtn);
+    d.innerText = "Please provide a valid email address";
+  } else {
+    valForm.insertBefore(d, valBtn);
+  }
   e.preventDefault();
 };
 
