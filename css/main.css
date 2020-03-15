@@ -118,7 +118,8 @@ body {
 .header__form .header__form-input {
   padding: 2rem 0 2rem 3rem;
   border: 0.1rem solid #bdbdbd;
-  outline: none; }
+  outline: none;
+  margin-bottom: 1rem; }
   .header__form .header__form-input::placeholder {
     color: #e3e3e3; }
 
