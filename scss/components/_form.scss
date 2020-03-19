@@ -19,15 +19,14 @@
   .header__form {
     display: flex;
     flex-direction: row;
-    // width: 50vw;
     width: 40vw;
 
     .header__form-input {
       margin-right: 1rem;
-      width: 33vw;
+      width: 27vw;
     }
     .btn {
-      width: 16vw;
+      width: 12vw;
       height: 4.2rem;
     }
   }

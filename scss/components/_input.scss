@@ -14,3 +14,13 @@
     border-radius: 3rem;
   }
 }
+
+@media only screen and (min-width: $desktop-size) {
+  html {
+    font-size: $desktop-font-size;
+  }
+
+  .header__form-input {
+    padding-left: 2rem !important;
+  }
+}
