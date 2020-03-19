@@ -115,6 +115,14 @@ body {
 .header__form .btn--round {
   border-radius: 3rem; }
 
+.validation {
+  visibility: hidden; }
+
+.error {
+  visibility: visible;
+  color: #ff5263;
+  font-size: 2rem; }
+
 .header__form .header__form-input {
   padding: 2rem 0 2rem 3rem;
   border: 0.1rem solid #bdbdbd;

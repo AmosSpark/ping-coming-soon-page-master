@@ -1,0 +1,9 @@
+.validation {
+  visibility: hidden;
+}
+
+.error {
+  visibility: visible;
+  color: $secondary-color-light-red;
+  font-size: 2rem;
+}

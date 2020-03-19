@@ -4,46 +4,58 @@ const valForm = document.querySelector(".header__form"),
   valInput = document.querySelector(".header__form-input"),
   valBtn = document.querySelector(".btn");
 
-// Create Element
-
-const d = document.createElement("div"); // create div element
-d.className = "validation";
-
 // Add Event Listerners
 
 const loadEvents = () => {
   valForm.addEventListener("submit", formVal);
   valInput.addEventListener("keyup", inputVal);
-  valBtn.addEventListener("click", btnVal);
+  //   valBtn.addEventListener("click", btnVal);
 };
 
 // Event Listeners
 
-// form
+// Validate form on submition form
+
 const formVal = e => {
   inputVal();
-  btnVal();
   e.preventDefault();
 };
 
 const inputVal = () => {
-  const re = /^ab$/;
-  if (!re.test) {
-    d.innerText = "Please provide a valid email address";
+  // Create Element
+  const d = document.createElement("div"); // create div element
+  d.className = "validation";
+
+  // regex pattern
+  const re = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+
+  if (valInput.value === "") {
+    valForm.insertBefore(d, valBtn);
+    val = document.querySelector(".validation");
+    val.classList.add("error");
+    val.textContent = "Email cannot be empty";
+  } else if (!re.test(valInput.value)) {
+    valForm.insertBefore(d, valBtn);
+    val = document.querySelector(".validation");
+    val.classList.add("error");
+    val.textContent = "Please provide a valid email addres";
+  } else {
+    val.classList.remove("error");
+    val.style.display = "none";
   }
 };
 
 // btn form
-const btnVal = e => {
-  if (valInput.value === "") {
-    console.log("error");
-    valForm.insertBefore(d, valBtn);
-    d.innerText = "Please provide a valid email address";
-  } else {
-    valForm.insertBefore(d, valBtn);
-  }
-  e.preventDefault();
-};
+// const btnVal = e => {
+//   if (valInput.value === "") {
+//     console.log("error");
+//     valForm.insertBefore(d, valBtn);
+//     d.innerText = "Please provide a valid email address";
+//   } else {
+//     valForm.insertBefore(d, valBtn);
+//   }
+//   e.preventDefault();
+// };
 
 // Invole loadEvents
 
