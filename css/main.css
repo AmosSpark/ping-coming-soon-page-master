@@ -115,11 +115,11 @@ body {
 .header__form .btn--round {
   border-radius: 3rem; }
 
-.validation {
-  visibility: hidden; }
+.validate {
+  display: none; }
 
 .error {
-  visibility: visible;
+  display: block;
   color: #ff5263;
   font-size: 2rem; }
 
