@@ -30,41 +30,40 @@ html {
 body {
   font-family: "Libre Franklin"; }
 
-.header {
-  margin-top: 8rem; }
-  .header .header__head {
-    text-transform: uppercase;
-    font-size: 2.5rem;
-    font-weight: 700; }
-    .header .header__head .header--txt {
-      color: #151f29; }
-    .header .header__head .header--punc {
-      color: #4f7df3; }
-  .header .header__info {
-    font-weight: 300; }
-    .header .header__info .header__info--big {
-      font-size: 3rem; }
-      .header .header__info .header__info--big .info--grey {
-        color: #969696; }
-        .header .header__info .header__info--big .info--grey .info--dark-blue {
-          color: #151f29;
-          font-weight: 700; }
-  .header .header__info--small {
-    font-size: 1.5rem;
-    margin: 2rem 0 3rem 0; }
-  .header .header__form .btn {
-    font-size: 1.6rem; }
+.header .header__head {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 700; }
+  .header .header__head .header--txt {
+    color: #151f29; }
+  .header .header__head .header--punc {
+    color: #4f7df3; }
+
+.header .header__info {
+  font-weight: 300; }
+  .header .header__info .header__info--big {
+    font-size: 3rem; }
+    .header .header__info .header__info--big .info--grey {
+      color: #969696; }
+      .header .header__info .header__info--big .info--grey .info--dark-blue {
+        color: #151f29;
+        font-weight: 700; }
+
+.header .header__info--small {
+  font-size: 1.5rem; }
+
+.header .header__form .btn {
+  font-size: 1.6rem; }
 
 @media only screen and (min-width: 1200px) {
   html {
     font-size: 75%; }
-  .header {
-    margin-top: 4rem; }
-    .header .header__info .header__info--big {
-      font-size: 4.5rem; }
-    .header .header__info--small {
-      font-size: 1.8rem;
-      margin: 2rem 0 3rem 0; } }
+  .header .header__info .header__info--big {
+    font-size: 3.5rem; }
+  .header .header__info--small {
+    font-size: 1.5rem; }
+  .header .header__form .btn {
+    font-size: 1.3rem; } }
 
 .header .header__logo {
   width: 100vw;
@@ -138,6 +137,20 @@ body {
   .container .dashboard {
     display: flex;
     justify-content: center; }
+
+.header {
+  margin-top: 8rem; }
+
+.header__info--small {
+  margin: 2rem 0 3rem 0; }
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 75%; }
+  .header {
+    margin-top: 4rem; }
+    .header .header__info--small {
+      margin: 2rem 0 3rem 0; } }
 
 .dashboard {
   margin: 8rem 0 10rem 0; }
