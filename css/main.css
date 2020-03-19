@@ -30,6 +30,9 @@ html {
 body {
   font-family: "Libre Franklin"; }
 
+.header .header__logo--color {
+  color: #4f7df3; }
+
 .header .header__head {
   text-transform: uppercase;
   font-size: 2.5rem;
@@ -58,27 +61,15 @@ body {
 @media only screen and (min-width: 1200px) {
   html {
     font-size: 75%; }
+  .header .header__logo {
+    font-size: 2rem;
+    font-weight: 700; }
   .header .header__info .header__info--big {
     font-size: 3.5rem; }
   .header .header__info--small {
     font-size: 1.5rem; }
   .header .header__form .btn {
     font-size: 1.3rem; } }
-
-.header .header__logo {
-  width: 100vw;
-  height: 2vh;
-  margin-bottom: 5rem;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../../images/logo.svg");
-  background-size: contain; }
-
-@media only screen and (min-width: 1200px) {
-  html {
-    font-size: 75%; }
-  .header .header__logo {
-    margin-bottom: 2rem; } }
 
 .header__form {
   display: flex;
@@ -140,6 +131,8 @@ body {
 
 .header {
   margin-top: 8rem; }
+  .header .header__logo {
+    margin-bottom: 5rem; }
 
 .header__info--small {
   margin: 2rem 0 3rem 0; }
@@ -149,6 +142,8 @@ body {
     font-size: 75%; }
   .header {
     margin-top: 4rem; }
+    .header .header__logo {
+      margin-bottom: 2rem; }
     .header .header__info--small {
       margin: 2rem 0 3rem 0; } }
 

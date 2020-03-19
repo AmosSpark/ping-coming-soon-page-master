@@ -24,6 +24,10 @@ body {
 }
 
 .header {
+  .header__logo--color {
+    color: $primary-color-blue;
+  }
+
   .header__head {
     text-transform: uppercase;
     font-size: 2.5rem;
@@ -71,6 +75,11 @@ body {
   }
 
   .header {
+    .header__logo {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
     .header__info {
       .header__info--big {
         font-size: 3.5rem;

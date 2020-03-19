@@ -1,5 +1,9 @@
 .header {
   margin-top: 8rem;
+
+  .header__logo {
+    margin-bottom: 5rem;
+  }
 }
 
 .header__info--small {
@@ -13,6 +17,10 @@
 
   .header {
     margin-top: 4rem;
+
+    .header__logo {
+      margin-bottom: 2rem;
+    }
 
     .header__info--small {
       margin: 2rem 0 3rem 0;
