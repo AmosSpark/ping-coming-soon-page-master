@@ -28,11 +28,14 @@ const inputVal = () => {
   if (valInput.value === "") {
     val.classList.add("error");
     val.textContent = "Email cannot be empty";
+    valInput.style.border = "0.1rem solid #ff7a88";
   } else if (!re.test(valInput.value)) {
     val.classList.add("error");
     val.textContent = "Please provide a valid email address";
+    valInput.style.border = "0.1rem solid #ff7a88";
   } else {
     val.classList.remove("error");
+    valInput.style.border = "0.1rem solid #bdbdbd";
   }
 };
 
