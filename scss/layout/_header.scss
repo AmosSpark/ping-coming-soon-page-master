@@ -1,0 +1,29 @@
+.header {
+  margin-top: 8rem;
+
+  .header__logo {
+    margin-bottom: 5rem;
+  }
+}
+
+.header__info--small {
+  margin: 2rem 0 3rem 0;
+}
+
+@media only screen and (min-width: $desktop-size) {
+  html {
+    font-size: $desktop-font-size;
+  }
+
+  .header {
+    margin-top: 4rem;
+
+    .header__logo {
+      margin-bottom: 2rem;
+    }
+
+    .header__info--small {
+      margin: 2rem 0 3rem 0;
+    }
+  }
+}

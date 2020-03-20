@@ -24,7 +24,9 @@ body {
 }
 
 .header {
-  margin-top: 8rem;
+  .header__logo--color {
+    color: $primary-color-blue;
+  }
 
   .header__head {
     text-transform: uppercase;
@@ -58,7 +60,6 @@ body {
 
   .header__info--small {
     font-size: 1.5rem;
-    margin: 2rem 0 3rem 0;
   }
 
   .header__form {
@@ -74,17 +75,25 @@ body {
   }
 
   .header {
-    margin-top: 4rem;
+    .header__logo {
+      font-size: 2rem;
+      font-weight: 700;
+    }
 
     .header__info {
       .header__info--big {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
       }
     }
 
     .header__info--small {
-      font-size: 1.8rem;
-      margin: 2rem 0 3rem 0;
+      font-size: 1.5rem;
+    }
+
+    .header__form {
+      .btn {
+        font-size: 1.3rem;
+      }
     }
   }
 }

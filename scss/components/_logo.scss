@@ -1,23 +1,23 @@
-.header {
-  .header__logo {
-    width: 100vw;
-    height: 2vh;
-    margin-bottom: 5rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url("../../images/logo.svg");
-    background-size: contain;
-  }
-}
+// .header {
+//   .header__logo {
+//     width: 100vw;
+//     height: 2vh;
+//     margin-bottom: 5rem;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-image: url("../../images/logo.svg");
+//     background-size: contain;
+//   }
+// }
 
-@media only screen and (min-width: $desktop-size) {
-  html {
-    font-size: $desktop-font-size;
-  }
+// @media only screen and (min-width: $desktop-size) {
+//   html {
+//     font-size: $desktop-font-size;
+//   }
 
-  .header {
-    .header__logo {
-      margin-bottom: 2rem;
-    }
-  }
-}
+//   .header {
+//     .header__logo {
+//       margin-bottom: 2rem;
+//     }
+//   }
+// }
