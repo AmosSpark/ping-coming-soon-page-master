@@ -90,9 +90,9 @@ body {
     width: 40vw; }
     .header__form .header__form-input {
       margin-right: 1rem;
-      width: 33vw; }
+      width: 27vw; }
     .header__form .btn {
-      width: 16vw;
+      width: 12vw;
       height: 4.2rem; } }
 
 .header__form .btn {
@@ -105,13 +105,23 @@ body {
 .header__form .btn--round {
   border-radius: 3rem; }
 
-.validation {
-  visibility: hidden; }
+.validate {
+  display: none; }
 
 .error {
-  visibility: visible;
-  color: #ff5263;
-  font-size: 2rem; }
+  display: block;
+  color: #ff7a88;
+  font-size: 1.5rem;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 3rem; }
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 75%; }
+  .error {
+    display: flex;
+    margin-left: 2rem; } }
 
 .header__form .header__form-input {
   padding: 2rem 0 2rem 3rem;
@@ -123,6 +133,12 @@ body {
 
 .header__form .header__form-input--round {
   border-radius: 3rem; }
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 75%; }
+  .header__form-input {
+    padding-left: 2rem !important; } }
 
 .container {
   width: 100vw;
