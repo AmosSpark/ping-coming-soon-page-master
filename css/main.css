@@ -32,6 +32,8 @@ body {
 
 .header {
   margin-top: 8rem; }
+  .header .header__logo--color {
+    color: #4f7df3; }
   .header .header__head {
     text-transform: uppercase;
     font-size: 2.5rem;
@@ -58,15 +60,6 @@ body {
 @media only screen and (min-width: 1200px) {
   html {
     font-size: 75%; } }
-
-.header .header__logo {
-  width: 100vw;
-  height: 2vh;
-  margin-bottom: 5rem;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../../images/logo.svg");
-  background-size: contain; }
 
 .header__form .header__form-input,
 .header__form .btn {
@@ -111,6 +104,16 @@ body {
   .container .dashboard {
     display: flex;
     justify-content: center; }
+
+.header {
+  margin-top: 8rem; }
+  .header .header__logo {
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    font-weight: 700; }
+
+.header__info--small {
+  margin: 2rem 0 3rem 0; }
 
 .dashboard {
   margin: 8rem 0 10rem 0; }
