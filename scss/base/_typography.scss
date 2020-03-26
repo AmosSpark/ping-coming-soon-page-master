@@ -67,6 +67,14 @@ body {
       font-size: 1.6rem;
     }
   }
+
+  .error {
+    color: $secondary-color-light-red;
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+  }
 }
 
 @media only screen and (min-width: $desktop-size) {
@@ -94,6 +102,10 @@ body {
       .btn {
         font-size: 1.3rem;
       }
+    }
+
+    .error {
+      font-size: 1rem;
     }
   }
 }
