@@ -30,9 +30,6 @@ html {
 body {
   font-family: "Libre Franklin"; }
 
-.header .header__logo--color {
-  color: #4f7df3; }
-
 .header .header__head {
   text-transform: uppercase;
   font-size: 2.5rem;
@@ -62,8 +59,7 @@ body {
   html {
     font-size: 75%; }
   .header .header__logo {
-    font-size: 2rem;
-    font-weight: 700; }
+    font-size: 2rem; }
   .header .header__info .header__info--big {
     font-size: 3.5rem; }
   .header .header__info--small {
@@ -130,14 +126,6 @@ body {
   .container .dashboard {
     display: flex;
     justify-content: center; }
-
-.header {
-  margin-top: 8rem; }
-  .header .header__logo {
-    margin-bottom: 5rem; }
-
-.header__info--small {
-  margin: 2rem 0 3rem 0; }
 
 @media only screen and (min-width: 1200px) {
   html {
