@@ -32,8 +32,11 @@ body {
 
 .header {
   margin-top: 8rem; }
-  .header .header__logo--color {
-    color: #4f7df3; }
+  .header .header__logo {
+    font-size: 2.5rem;
+    font-weight: 700; }
+    .header .header__logo .header__logo--color {
+      color: #4f7df3; }
   .header .header__head {
     text-transform: uppercase;
     font-size: 2.5rem;
@@ -108,9 +111,7 @@ body {
 .header {
   margin-top: 8rem; }
   .header .header__logo {
-    margin-bottom: 5rem;
-    font-size: 2.5rem;
-    font-weight: 700; }
+    margin-bottom: 5rem; }
 
 .header__info--small {
   margin: 2rem 0 3rem 0; }
