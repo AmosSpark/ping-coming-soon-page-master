@@ -31,9 +31,12 @@ body {
   font-family: "Libre Franklin"; }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .header .header__logo--color {
   color: #4f7df3; }
 
+=======
+>>>>>>> desktop_branch
 .header .header__head {
   text-transform: uppercase;
   font-size: 2.5rem;
@@ -123,8 +126,7 @@ body {
   html {
     font-size: 75%; }
   .header .header__logo {
-    font-size: 2rem;
-    font-weight: 700; }
+    font-size: 2rem; }
   .header .header__info .header__info--big {
     font-size: 3.5rem; }
   .header .header__info--small {
@@ -224,6 +226,7 @@ body {
     display: flex;
     justify-content: center; }
 
+<<<<<<< HEAD
 .header {
   margin-top: 8rem; }
   .header .header__logo {
@@ -233,6 +236,8 @@ body {
   margin: 2rem 0 3rem 0; }
 
 <<<<<<< HEAD
+=======
+>>>>>>> desktop_branch
 @media only screen and (min-width: 1200px) {
   html {
     font-size: 75%; }
