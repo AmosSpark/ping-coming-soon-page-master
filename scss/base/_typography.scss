@@ -28,6 +28,15 @@ body {
     color: $primary-color-blue;
   }
 
+  .header__logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+
+    .header__logo--color {
+      color: $primary-color-blue;
+    }
+  }
+
   .header__head {
     text-transform: uppercase;
     font-size: 2.5rem;

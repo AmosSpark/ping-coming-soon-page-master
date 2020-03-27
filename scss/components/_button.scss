@@ -5,10 +5,14 @@
     border: none;
     outline: none;
     box-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+<<<<<<< HEAD
 
     &:hover {
       background: lighten($color: $primary-color-blue, $amount: 5);
     }
+=======
+    cursor: pointer;
+>>>>>>> mobile_branch
   }
 
   .btn--round {
